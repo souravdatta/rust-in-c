@@ -1,0 +1,11 @@
+[package]
+name = "librst1"
+version = "0.1.0"
+authors = ["Sourav Datta <sdatta@planview.com>"]
+
+[lib]
+name = "librst1"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.2.26"
